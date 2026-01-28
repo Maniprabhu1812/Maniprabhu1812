@@ -1,62 +1,59 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>perfumy</title>
-    <link rel="icon" href="logo.jpg">
+    <meta charset="UTF-8">
+    <title>Perfume Shop</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="mas">
-    <div class="nav">
-        <nav>
-            <h1>Perfumy</h1>
-            <ul>
-                <list >Home | </list>
-                <list >products | </list>
-                <list >About | </list>
-                <list>Contact | </list>
-            </ul>
-        </nav>
+<body>
 
+<header>
+    <h1>🌸 Perfume Shop</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="banner">
+    <h2>Luxury Fragrances for You</h2>
+    <p>Smell good. Feel confident.</p>
+</section>
+
+<section id="products" class="products">
+    <h2>Our Perfumes</h2>
+
+    <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Perfume">
+        <h3>Rose Essence</h3>
+        <p>Price: ₹999</p>
+        <button onclick="buy()">Buy Now</button>
     </div>
-    <div class="search ">
 
-     <input type="search" placeholder="search">
-
+    <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Perfume">
+        <h3>Ocean Breeze</h3>
+        <p>Price: ₹1299</p>
+        <button onclick="buy()">Buy Now</button>
     </div>
-    <div class="products">
-        <div class="box">
-            <img src="gsj.jpg" >
-         <p class="one">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio molestias dicta itaque voluptates, ut eum.
-            </p>
 
-        </div>
-        <div class="b">
-            <img src="th.jpg ">
-         <p class="one">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio molestias dicta itaque voluptates, ut eum.
-            </p>
+</section>
 
-        </div>
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="return submitForm()">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
 
-        <div class="bo">
-            <img src="ss.jpg">
-         <p class="one">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio molestias dicta itaque voluptates, ut eum.
-            </p>
+<footer>
+    <p>© 2026 Perfume Shop</p>
+</footer>
 
-        </div>
-    </div>
-   
-    <div class="about">
-        <h1>About us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatem laborum, odit saepe iste ipsam explicabo, eum voluptates earum officiis aspernatur! Voluptate explicabo asperiores ex labore similique corporis quisquam expedita molestias, cupiditate non nihil, excepturi totam? Fugit laborum velit perferendis veniam sapiente? A nesciunt deleniti facilis optio maiores unde ipsa omnis rem, iste libero provident explicabo inventore doloremque fugit. Nostrum facere, sint praesentium at officia nobis magni consequatur doloribus aspernatur.</p>
-
-    </div>
-    <div class="contact">
-        <h3>Contact</h3>
-        <p class="ppp">+91 969864441</p> <p>perfumy@gmail.com</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui pariatur quaerat totam distinctio cum alias, et iste aut non eum asperiores assumenda. Repudiandae porro ipsa veniam sed. Neque, quisquam numquam!</p>
-
-    </div>
+<script src="script.js"></script>
 </body>
 </html>
