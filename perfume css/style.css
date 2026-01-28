@@ -1,94 +1,71 @@
-.nav{
-    h1,ul,li{
-        display: inline;
-    }
-    ul{
-        margin-left: 70%;
-    }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+}
 
-    background-color: black;
+header {
+    background: #222;
     color: white;
-    padding: 20px;
-}
-    list:hover{
-        color: white;
-        cursor: pointer;
-    }
-
-input{
-   width: 50%;
-   padding: 15px;
-   margin-top: 50px;
-   margin-left: 300px;
-   text-align: center;
-}
-.box{
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    width: 210px;
-    display: inline-block;
-    margin-left: 5cm;
+    padding: 15px;
+    text-align: center;
 }
 
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
 
-.b{
-    border-color:green;
-    border-width: 2px;
-    border-style: solid;
+.banner {
+    background: pink;
+    text-align: center;
+    padding: 40px;
+}
+
+.products {
+    padding: 30px;
+    text-align: center;
+}
+
+.product-card {
+    background: white;
     width: 250px;
     display: inline-block;
-    margin-left: 1cm;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
 }
 
-.bo{
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    width: 205px;
-    display: inline-block;
-    margin-left: 1cm;
+.product-card img {
+    width: 100%;
+    border-radius: 5px;
 }
-.products{
-margin: 30px;
-}
-.one:hover{
-    color: grey;
+
+.product-card button {
+    background: #e91e63;
+    color: white;
+    border: none;
+    padding: 10px;
     cursor: pointer;
 }
 
-
-.about{
+.contact {
+    background: #fff;
+    padding: 30px;
     text-align: center;
-    h1{
-        margin-bottom: 1cm;
-    }
-}
-.mas{
-   # background-color:rgba(0, 0, 0, 0.479);
 }
 
-.contact{
-border-width: 20pz;
-border-color: black;
-border-style: solid;
-background-color: black;
-color: white;
+.contact input, .contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 8px 0;
+}
 
-
-    h3{
-        text-align: center;
-        display: inline block;
-        padding: 2px;
-        margin: 1px;
-    }
-    p{
-        text-align: center;
-        margin: 5px;
-        
-    }
-    .ppp{
-        margin: 5px;
-    }
-
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
